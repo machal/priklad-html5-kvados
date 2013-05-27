@@ -1,0 +1,112 @@
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+a img {
+  border: 0;
+}
+body {
+  font: 15px/20px sans-serif;
+  background: #6d431f url('http://www.vzhurudolu.cz/skoleni/zdroje/wood.png') repeat;
+  color: #fff;
+  padding: 40px 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #ccc;
+}
+table td,
+table th {
+  text-align: left;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  padding: .5em .2em .5em 0;
+}
+table th {
+  color: #999;
+}
+.infobox {
+  color: #000;
+  background: #fff;
+  padding: 1em;
+}
+.polaroids {
+  zoom: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.polaroids:before,
+.polaroids:after {
+  content: "";
+  display: table;
+}
+.polaroids:after {
+  clear: both;
+}
+.polaroid {
+  float: left;
+  width: 170px;
+  height: 180px;
+  padding: 10px;
+  margin: 0 20px 20px 0;
+  background-color: white;
+  color: darkgrey;
+}
+.polaroid img {
+  max-width: 100%;
+}
+.polaroid a {
+  color: #666;
+  text-decoration: none;
+}
+.polaroid .head {
+  text-align: center;
+  font: 15px/20px sans-serif;
+  font-weight: normal;
+}
+.polaroid:hover,
+.polaroid:focus,
+.polaroid:active {
+  background-color: #fcf883;
+}
+.polaroid .polaroid:hover .head,
+.polaroid .polaroid:focus .head,
+.polaroid .polaroid:active .head {
+  color: black;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.content {
+  width: 660px;
+  float: left;
+}
+.side {
+  width: 330px;
+  float: left;
+}
