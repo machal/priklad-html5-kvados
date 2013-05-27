@@ -17,7 +17,23 @@
     
       <div class="head">
           
-          <h1>Fotky z dovolené</h1>
+          <h1>Moje fotogalerie</h1>
+          
+          <div class="nav">
+            <h2 class="dumb_only">Navigace</h2>
+            <ul>
+              <li class="nav_item">
+                <b>Cesta kolem světa</b>
+              </li>
+              <li class="nav_item">
+                <a href="#">Svatba</a>
+              </li>
+              <li class="nav_item">
+                <a href="#">Promoce</a>
+              </li>              
+            </ul>
+            
+          </div><!-- .nav -->
         
       </div><!-- /head -->
 
@@ -158,17 +174,23 @@
             <br><small>— Jindřich Chalupecký, 24. 4. 2013</small>
           </p>
           
-          <form action="#">
+          <form action="#" class="form">
             <h3>Přidat komentář</h3>
-            <label>
-              Jméno
-              <input name="" value="">
-            </label>
-            <label>
-              Text
-              <textarea name=""></textarea>
-            </label>           
-            <input type="submit" name="" value="Odeslat"> 
+            <p>
+              <label>
+                Jméno
+                <input type="text" name="" value="">
+              </label>              
+            </p>
+            <p>
+              <label>
+                Text
+                <textarea name="" rows="4"></textarea>
+              </label>                         
+            </p>
+            <p>
+              <input type="submit" name="" value="Odeslat">               
+            </p>
           </form>
 
           
@@ -181,6 +203,7 @@
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="fancybox/jquery.fancybox.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js"></script>
     <script src="js/index.js"></script>
   
   </body>
