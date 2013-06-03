@@ -50,6 +50,9 @@ table th {
   padding: 1em;
   margin-bottom: 1em;
 }
+.infobox h2 {
+  margin-top: 0;
+}
 .polaroids {
   zoom: 1;
   list-style-type: none;
@@ -157,5 +160,5 @@ table th {
 }
 .side {
   width: 330px;
-  float: left;
+  float: right;
 }
