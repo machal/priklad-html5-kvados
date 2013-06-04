@@ -143,6 +143,13 @@ table th {
   background: #ddd;
   background: rgba(255, 255, 255, 0.5);
 }
+@media (max-width: 480px) {
+  .nav_item,
+  .nav_item a,
+  .nav_item b {
+    display: block;
+  }
+}
 .container {
   max-width: 980px;
   margin: 0 auto;
