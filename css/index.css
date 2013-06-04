@@ -167,7 +167,19 @@ table th {
   width: 66%;
   float: left;
 }
+@media (max-width: 480px) {
+  .content {
+    width: auto;
+    float: none;
+  }
+}
 .side {
   width: 33%;
   float: right;
+}
+@media (max-width: 480px) {
+  .side {
+    width: auto;
+    float: none;
+  }
 }

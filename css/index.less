@@ -180,9 +180,19 @@ table {
 .content {
 	width: 66%;
 	float: left;
+	
+	@media (max-width: 480px) {
+		width: auto;
+		float: none;
+	}
 }
 
 .side {
 	width: 33%;
 	float: right;
+	
+	@media (max-width: 480px) {
+		width: auto;
+		float: none;
+	}	
 }
