@@ -121,7 +121,6 @@ h1 {
 	&:active {
 	  background-color: #fcf883;
 		background-color: rgba(100%, 100%, 100%, 1);	
-		.transform(scale(1.1) rotate(12.5deg));
 	}
 	
 	&:target {
@@ -133,6 +132,24 @@ h1 {
 	.polaroid:active .head {
 	  color: black;
 	}
+}
+
+// Drag and drop stavy
+
+.polaroid.dragged {
+  opacity: .5;
+}
+
+.polaroid.bin {
+ 	text-align: center;
+}
+
+.bin.dragenter {
+  background: yellow;
+}
+
+.bin.drop {
+  background: black;
 }
 
 // --- Formular ---

@@ -110,11 +110,6 @@ h1 {
 .polaroid:active {
   background-color: #fcf883;
   background-color: #ffffff;
-  -webkit-transform: scale(1.1) rotate(12.5deg);
-  -moz-transform: scale(1.1) rotate(12.5deg);
-  -o-transform: scale(1.1) rotate(12.5deg);
-  -ms-transform: scale(1.1) rotate(12.5deg);
-  transform: scale(1.1) rotate(12.5deg);
 }
 .polaroid:target {
   background: yellow;
@@ -123,6 +118,18 @@ h1 {
 .polaroid .polaroid:focus .head,
 .polaroid .polaroid:active .head {
   color: black;
+}
+.polaroid.dragged {
+  opacity: .5;
+}
+.polaroid.bin {
+  text-align: center;
+}
+.bin.dragenter {
+  background: yellow;
+}
+.bin.drop {
+  background: black;
 }
 .form input[type=text],
 .form textarea {
