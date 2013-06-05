@@ -113,11 +113,14 @@ h1 {
 
 .polaroid {
 	z-index: 100;
+	background-color: rgba(100%, 100%, 100%, .7);
+	.transition(100ms);
 	
 	&:hover,
 	&:focus,
 	&:active {
 	  background-color: #fcf883;
+		background-color: rgba(100%, 100%, 100%, 1);	
 		.transform(scale(1.1) rotate(12.5deg));
 	}
 	

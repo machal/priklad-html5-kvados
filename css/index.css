@@ -98,11 +98,18 @@ h1 {
 }
 .polaroid {
   z-index: 100;
+  background-color: rgba(256, 256, 256, 0.7);
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -o-transition: 100ms;
+  -ms-transition: 100ms;
+  transition: 100ms;
 }
 .polaroid:hover,
 .polaroid:focus,
 .polaroid:active {
   background-color: #fcf883;
+  background-color: #ffffff;
   -webkit-transform: scale(1.1) rotate(12.5deg);
   -moz-transform: scale(1.1) rotate(12.5deg);
   -o-transform: scale(1.1) rotate(12.5deg);
