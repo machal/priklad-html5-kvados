@@ -109,6 +109,9 @@ h1 {
   -ms-transform: scale(1.1) rotate(12.5deg);
   transform: scale(1.1) rotate(12.5deg);
 }
+.polaroid:target {
+  background: yellow;
+}
 .polaroid .polaroid:hover .head,
 .polaroid .polaroid:focus .head,
 .polaroid .polaroid:active .head {
