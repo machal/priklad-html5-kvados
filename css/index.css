@@ -150,36 +150,26 @@ table th {
     display: block;
   }
 }
-.container {
-  max-width: 980px;
-  margin: 0 auto;
-  zoom: 1;
-}
-.container:before,
-.container:after {
-  content: "";
-  display: table;
-}
-.container:after {
-  clear: both;
-}
-.content {
-  width: 66%;
-  float: left;
-}
-@media (max-width: 480px) {
-  .content {
-    width: auto;
-    float: none;
+@media (min-width: 481px) {
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    zoom: 1;
   }
-}
-.side {
-  width: 33%;
-  float: right;
-}
-@media (max-width: 480px) {
+  .container:before,
+  .container:after {
+    content: "";
+    display: table;
+  }
+  .container:after {
+    clear: both;
+  }
+  .content {
+    width: 66%;
+    float: left;
+  }
   .side {
-    width: auto;
-    float: none;
+    width: 33%;
+    float: right;
   }
 }
