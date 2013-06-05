@@ -53,6 +53,14 @@ table {
 	
 }
 
+h1, h2, h3 {
+	font-family: 'Covered By Your Grace', cursive;	
+}
+
+h1 {
+	text-decoration: underline;
+}
+
 // --- Infobox na strane ---
 
 .infobox {
@@ -104,10 +112,13 @@ table {
 }
 
 .polaroid {
+	z-index: 100;
+	
 	&:hover,
 	&:focus,
 	&:active {
 	  background-color: #fcf883;
+		.transform(scale(1.1) rotate(12.5deg));
 	}
 
 	.polaroid:hover .head,

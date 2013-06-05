@@ -44,6 +44,14 @@ table th {
 table th {
   color: #999;
 }
+h1,
+h2,
+h3 {
+  font-family: 'Covered By Your Grace', cursive;
+}
+h1 {
+  text-decoration: underline;
+}
 .infobox {
   color: #000;
   background: #fff;
@@ -88,10 +96,18 @@ table th {
   font: 15px/20px sans-serif;
   font-weight: normal;
 }
+.polaroid {
+  z-index: 100;
+}
 .polaroid:hover,
 .polaroid:focus,
 .polaroid:active {
   background-color: #fcf883;
+  -webkit-transform: scale(1.1) rotate(12.5deg);
+  -moz-transform: scale(1.1) rotate(12.5deg);
+  -o-transform: scale(1.1) rotate(12.5deg);
+  -ms-transform: scale(1.1) rotate(12.5deg);
+  transform: scale(1.1) rotate(12.5deg);
 }
 .polaroid .polaroid:hover .head,
 .polaroid .polaroid:focus .head,
