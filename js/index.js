@@ -31,6 +31,7 @@ $(document).ready(function() {
     $(this).toggleClass('dragenter');
   });
 
+  // Nutne, aby fungovala udalost 'drop'
   $('.bin').on('dragover', function(e) {
     e.preventDefault();
   });
